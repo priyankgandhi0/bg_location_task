@@ -3,9 +3,10 @@
 
     <uses-permission android:minSdkVersion="34" android:name="android.permission.USE_EXACT_ALARM" />
     <application
-        android:label="@string/app_name"
+        android:label="Bg Task"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
+        tools:replace="android:label"
        >
         <activity
             android:name=".MainActivity"
